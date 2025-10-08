@@ -1,7 +1,7 @@
 # Prometheus Operator
 
 ![](https://i.imgur.com/waxVImv.png)
-### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+### [View all Roadmaps](https://github.com/StarDev95/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/StarDev95/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
 <br/>
 ## Overview
 
@@ -20,7 +20,7 @@ The Prometheus operator includes, but is not limited to, the following features:
 * **Prometheus Target Configuration**: Automatically generate monitoring target configurations based
   on familiar Kubernetes label queries; no need to learn a Prometheus specific configuration language.
 
-For an introduction to the Prometheus Operator, see the [getting started](https://github.com/nholuongut/prometheus-operator/blob/main/Documentation/user-guides/getting-started.md) guide.
+For an introduction to the Prometheus Operator, see the [getting started](https://github.com/StarDev95/prometheus-operator/blob/main/Documentation/user-guides/getting-started.md) guide.
 
 ## Project Status
 
@@ -38,23 +38,23 @@ The Prometheus Operator uses Kubernetes [custom resources](https://kubernetes.io
 
 ### kube-prometheus
 
-[kube-prometheus](https://github.com/nholuongut/kube-prometheus) provides example configurations for a complete cluster monitoring
+[kube-prometheus](https://github.com/StarDev95/kube-prometheus) provides example configurations for a complete cluster monitoring
 stack based on Prometheus and the Prometheus Operator. This includes deployment of multiple Prometheus and Alertmanager instances,
 metrics exporters such as the node_exporter for gathering node metrics, scrape target configuration linking Prometheus to various
 metrics endpoints, and example alerting rules for notification of potential issues in the cluster.
 
 ### Helm chart
 
-The [prometheus-community/kube-prometheus-stack](https://github.com/nholuongut/prometheus-operator/issues)
+The [prometheus-community/kube-prometheus-stack](https://github.com/StarDev95/prometheus-operator/issues)
 Helm chart provides a similar feature set to kube-prometheus. This chart is maintained by the Prometheus community.
-For more information, please see the [chart's readme](https://github.com/nholuongut/prometheus-operator/issues#kube-prometheus-stack)
+For more information, please see the [chart's readme](https://github.com/StarDev95/prometheus-operator/issues#kube-prometheus-stack)
 
 ## Prerequisites
 
 The Prometheus Operator requires at least Kubernetes version `1.16.0`. If you
 are just starting out with the Prometheus Operator, it is highly recommended to
 use the latest [stable
-release](https://github.com/nholuongut/prometheus-operator/releases/latest).
+release](https://github.com/StarDev95/prometheus-operator/releases/latest).
 
 ## CustomResourceDefinitions
 
@@ -105,7 +105,7 @@ For more information on this feature, see the [user guide](https://prometheus-op
 ## Quickstart
 
 **Note:** this quickstart does not provision an entire monitoring stack; if that is what you are looking for,
-see the [kube-prometheus](https://github.com/nholuongut/kube-prometheus) project. If you want the whole stack,
+see the [kube-prometheus](https://github.com/StarDev95/kube-prometheus) project. If you want the whole stack,
 but have already applied the `bundle.yaml`, delete the bundle first (`kubectl delete -f bundle.yaml`).
 
 To quickly try out *just* the Prometheus Operator inside a cluster, **choose a release** and run the following command which deploys the operator in the `default` namespace:
@@ -183,17 +183,5 @@ the maintainers of the project found in the [MAINTAINERS.md](MAINTAINERS.md) fil
 Check the [troubleshooting documentation](Documentation/troubleshooting.md) for
 common issues and frequently asked questions (FAQ).
 
-# 🚀 I'm are always open to your feedback.  Please contact as bellow information:
-### [Contact ]
-* [Name: Nho Luong]
-* [Skype](luongutnho_skype)
-* [Github](https://github.com/nholuongut/)
-* [Linkedin](https://www.linkedin.com/in/nholuong/)
-* [Email Address](luongutnho@hotmail.com)
-* [PayPal.me](https://www.paypal.com/paypalme/nholuongut)
+# 🚀 I'm are always open to your feedback. 
 
-![](https://i.imgur.com/waxVImv.png)
-![](Donate.jpg)
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
-
-# License
